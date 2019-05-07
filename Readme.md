@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Сергей](https://up.htmlacademy.ru/htmlcss/25/user/1000145).
-* Наставник: [Анечка Волкова](https://up.htmlacademy.ru/htmlcss/25/user/477715).
+* Наставник: [Анечка Волкова](https://up.htmlacademy.ru/htmlcss/25/user/477715). 
 
 ---
 
