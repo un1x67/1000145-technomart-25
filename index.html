@@ -8,26 +8,26 @@
   <header class="main-header">
     <div>
       <a class="main-logo-header">
-        <img src="img/logo-technomart.svg" width="220" height="47" alt="Логотип Техномарт">
+        <img src="img/logo-technomart.svg" width="220" height="47" alt="Логотип &#171;Техномарт&#187;">
       </a>
       <form>
-        <label class="search">
-          <input type="text" name="search" placeholder="Поиск">
-        </label>
+        <label class="search"></label>
+        <input type="image" src="img/icon-search.svg" alt="Поиск">
+        <input type="text" name="search" placeholder="Поиск">
       </form>
       <div class="navigation-list">
-        <a class="bookmark">Закладки</a>
-        <a class="cart">Корзина</a>
+        <a class="bookmark"><img src="img/icon-bookmark.svg" alt="bookmark">Закладки</a>
+        <a class="cart"><img src="img/icon-cart.svg" alt="cart">Корзина</a>
       </div>
       <a class="get-order" href="#">Оформить заказ</a>
     </div>
       <h1 class="visually-hidden">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
       <span>Интернет-магазин строительных материалов и инструментов для ремонта</span>
-      <a class="header-phone" href="tel:+78125550555">&#43;&#55; &#40;&#56;&#49;&#50;&#41; &#53;&#53;&#53;&#45;&#48;&#53;&#45;&#53;&#53;</a>
+      <a class="header-phone" href="tel:+78125550555"><img src="img/icon-phone.svg" alt="phone">&#43;&#55; &#40;&#56;&#49;&#50;&#41; &#53;&#53;&#53;&#45;&#48;&#53;&#45;&#53;&#53;</a>
       <address class="phone-navigation">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
       <ul class="user-navigation">
         <li class="login-link">
-          <a href="#">Вход</a>
+          <a href="#"><img src="img/icon-login.svg" alt="input">Вход</a>
         </li>
         <li class="registration-link">
           <a href="#">Регистрация</a>
@@ -86,7 +86,7 @@
     </section>
   </main>
   <footer class="main-footer">
-    <img src="img/logo-technomart.svg" width="220" height="68" alt="Логотип Техномарт">
+    <img src="img/logo-technomart.svg" width="220" height="68" alt="Логотип &#171;Техномарт&#187;">
     <ul>
       <li>
         <a href="company.html">Компания</a>
@@ -125,13 +125,13 @@
       <div class="footer-social">
         <ul>
           <li class="vk">
-            <a class="social-button" href="#">Вконтакте</a>
+            <a class="social-button" href="#"><img src="img/icon-vk.svg" alt="vk">Вконтакте</a>
           </li>
           <li class="facebook">
-            <a class="social-button" href="#">Фейсбук</a>
+            <a class="social-button" href="#"><img src="img/icon-fb.svg" alt="facebook">Фейсбук</a>
           </li>
           <li class="instagram">
-            <a class="social-button" href="#">Инстаграм</a>
+            <a class="social-button" href="#"><img src="img/icon-insta.svg" alt="instagram">Инстаграм</a>
           </li>
         </ul>
       </div>
@@ -145,6 +145,17 @@
       </p>
     </div>
   </footer>
+  <section class="write-us">
+    <h2 class="visually-hidden">Написать нам</h2>
+    <img class="form2" src="img/icon-close.svg" alt="close">
+    <label for="user-field-id">Ваше имя:</label>
+    <input type="text" name="username" id="user-field-id" placeholder="Имя Фамилия">
+    <label for="email-field-id">Ваш e-mail:</label>
+    <input type="email" name="email" id="email-field-id" placeholder="email@example.com">
+    <p>Текст письма:</p>
+    <textarea name="writing" id="writing-field" rows="10" cols="46">В свободной форме</textarea>
+    <input type="submit" value="Отправить">
+  </section>
   <section class="popup-forms">
     <h2 class="hidden">Связаться с нами !</h2>
     <!-- forms -->

@@ -8,26 +8,26 @@
   <header class="main-header">
     <div>
       <a class="main-logo-header">
-        <img src="img/logo-technomart.svg" width="220" height="47" alt="Логотип Техномарт">
+        <img src="img/logo-technomart.svg" width="220" height="47" alt="Логотип &#171;Техномарт&#187;">
       </a>
       <form>
-        <label class="search">
-          <input type="text" name="search" placeholder="Поиск">
-        </label>
+        <label class="search"></label>
+        <input type="image" src="img/icon-search.svg" alt="Поиск">
+        <input type="text" name="search" placeholder="Поиск">
       </form>
       <div class="navigation-list">
-        <a class="bookmark">Закладки</a>
-        <a class="cart">Корзина</a>
+        <a class="bookmark"><img src="img/icon-bookmark.svg" alt="bookmark">Закладки</a>
+        <a class="cart"><img src="img/icon-cart.svg" alt="cart">Корзина</a>
       </div>
       <a class="get-order" href="#">Оформить заказ</a>
     </div>
       <h1 class="visually-hidden">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
       <span>Интернет-магазин строительных материалов и инструментов для ремонта</span>
-      <a class="header-phone" href="tel:+78125550555">&#43;&#55; &#40;&#56;&#49;&#50;&#41; &#53;&#53;&#53;&#45;&#48;&#53;&#45;&#53;&#53;</a>
+      <a class="header-phone" href="tel:+78125550555"><img src="img/icon-phone.svg" alt="phone">&#43;&#55; &#40;&#56;&#49;&#50;&#41; &#53;&#53;&#53;&#45;&#48;&#53;&#45;&#53;&#53;</a>
       <address class="phone-navigation">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
       <ul class="user-navigation">
         <li class="login-link">
-          <a href="#">Вход</a>
+          <a href="#"><img src="img/icon-login.svg" alt="input">Вход</a>
         </li>
         <li class="registration-link">
           <a href="#">Регистрация</a>
@@ -63,15 +63,15 @@
     <h2 class="page-title">Перфораторы</h2>
     <ul class="breadcrumbs">
       <li>
-        <a href="index.html"></a>
+        <a href="index.html"><img src="img/icon-home.svg" alt="Главная"></a>
       </li>
       <li>
-        <a href="catalog.html">Каталог</a>
+        <a href="catalog.html"><img src="img/icon-right-small.svg" alt="right-small">Каталог</a>
       </li>
       <li>
-        <a href="instrument.html">Инструмент</a>
+        <a href="instrument.html"><img src="img/icon-right-small.svg" alt="right-small">Инструмент</a>
       </li>
-      <li class="breadcrumbs-current">Перфораторы</li>
+      <li class="breadcrumbs-current"><img src="img/icon-right-small.svg" alt="right-small">Перфораторы</li>
     </ul>
     <h2>Перфораторы</h2>
     <section class="filters">
@@ -81,20 +81,41 @@
       <form>
         <fieldset>
         <ul class="producer">
-          <li class="producer">BOSCH</li>
-          <li>ИНТЕРСКОЛ</li>
-          <li class="producer">MAKITA</li>
-          <li>DEWALT</li>
-          <li>HITACHI</li>
+          <li class="producer">
+            <input type="checkbox" name="subscribe" id="subscribe-field" checked>
+            BOSCH
+          </li>
+          <li>
+            <input type="checkbox" name="subscribe" id="subscribe-field">
+            ИНТЕРСКОЛ
+          </li>
+          <li class="producer">
+            <input type="checkbox" name="subscribe" id="subscribe-field" checked>
+            MAKITA
+          </li>
+          <li>
+            <input type="checkbox" name="subscribe" id="subscribe-field">
+            DEWALT
+          </li>
+          <li>
+            <input type="checkbox" name="subscribe" id="subscribe-field">
+            HITACHI
+          </li>
         </ul>
       </fieldset>
         <fieldset>
           <h3>Питание:</h3>
           <ul class="buttery">
-            <li class="buttery">Аккумуляторные</li>
-            <li>Сетевые</li>
+            <li class="buttery">
+              <input type="radio" name="question-one" value="Аккумуляторные" checked>
+              Аккумуляторные
+            </li>
+            <li>
+              <input type="radio" name="question-one" value="Аккумуляторные">
+              Сетевые
+            </li>
           </ul>
-          <!-- Показать -->
+          <input type="button" value="ПОКАЗАТЬ">
         </fieldset>
       </form>
     </section>
@@ -111,8 +132,10 @@
             <span class="last-price">22500 p</span>
             <span class="current">15 500 p</span>
           </p>
-          <!-- купить -->
-          <!-- в закладки -->
+          <form>
+            <button type="submit"><img src="img/icon-cart.svg" alt="cart">купить</button>
+            <button type="submit">в закладки</button>
+          </form>
         </li>
         <li class="catalog-item">
           <a href="catalog-item.html">
@@ -125,8 +148,10 @@
             <span class="last-price">30500 p</span>
             <span class="current">25 500 p</span>
           </p>
-          <!-- купить -->
-          <!-- в закладки -->
+          <form>
+            <button type="submit"><img src="img/icon-cart.svg" alt="cart">купить</button>
+            <button type="submit">в закладки</button>
+          </form>
         </li>
         <li class="catalog-item new-goods">
           <a href="catalog-item.html">
@@ -139,8 +164,10 @@
             <span class="last-price"></span>
             <span class="current">12 500 p</span>
           </p>
-          <!-- купить -->
-          <!-- в закладки -->
+          <form>
+            <button type="submit"><img src="img/icon-cart.svg" alt="cart">купить</button>
+            <button type="submit">в закладки</button>
+          </form>
         </li>
         <li class="catalog-item">
           <a href="catalog-item.html">
@@ -153,8 +180,10 @@
             <span class="last-price">22500 p</span>
             <span class="current">15 500 p</span>
           </p>
-          <!-- купить -->
-          <!-- в закладки -->
+          <form>
+            <button type="submit"><img src="img/icon-cart.svg" alt="cart">купить</button>
+            <button type="submit">в закладки</button>
+          </form>
         </li>
         <li class="catalog-item new-goods">
           <a href="catalog-item.html">
@@ -167,8 +196,10 @@
             <span class="last-price">30500 p</span>
             <span class="current">25 500 p</span>
           </p>
-          <!-- купить -->
-          <!-- в закладки -->
+          <form>
+            <button type="submit"><img src="img/icon-cart.svg" alt="cart">купить</button>
+            <button type="submit">в закладки</button>
+          </form>
         </li>
         <li class="catalog-item ">
           <a href="catalog-item.html">
@@ -181,8 +212,10 @@
             <span class="last-price"></span>
             <span class="current">12 500 p</span>
           </p>
-          <!-- купить -->
-          <!-- в закладки -->
+          <form>
+            <button type="submit"><img src="img/icon-cart.svg" alt="cart">купить</button>
+            <button type="submit">в закладки</button>
+          </form>
         </li>
         <li class="catalog-item new-goods">
           <a href="catalog-item.html">
@@ -195,8 +228,10 @@
             <span class="last-price">22500 p</span>
             <span class="current">15 500 p</span>
           </p>
-          <!-- купить -->
-          <!-- в закладки -->
+          <form>
+            <button type="submit"><img src="img/icon-cart.svg" alt="cart">купить</button>
+            <button type="submit">в закладки</button>
+          </form>
         </li>
         <li class="catalog-item">
           <a href="catalog-item.html">
@@ -209,8 +244,10 @@
             <span class="last-price">30500 p</span>
             <span class="current">25 500 p</span>
           </p>
-          <!-- купить -->
-          <!-- в закладки -->
+          <form>
+            <button type="submit"><img src="img/icon-cart.svg" alt="cart">купить</button>
+            <button type="submit">в закладки</button>
+          </form>
         </li>
         <li class="catalog-item">
           <a href="catalog-item.html">
@@ -223,8 +260,10 @@
             <span class="last-price"></span>
             <span class="current">12 500 p</span>
           </p>
-          <!-- купить -->
-          <!-- в закладки -->
+          <form>
+            <button type="submit"><img src="img/icon-cart.svg" alt="cart">купить</button>
+            <button type="submit">в закладки</button>
+          </form>
         </li>
       </ul>
     </article>
@@ -233,7 +272,7 @@
     </section>
   </main>
   <footer class="main-footer">
-    <img src="img/logo-technomart.svg" width="220" height="68" alt="Логотип Техномарт">
+    <img src="img/logo-technomart.svg" width="220" height="68" alt="Логотип &#171;Техномарт&#187;">
     <ul>
       <li>
         <a href="company.html">Компания</a>
@@ -272,13 +311,13 @@
       <div class="footer-social">
         <ul>
           <li class="vk">
-            <a class="social-button" href="#">Вконтакте</a>
+            <a class="social-button" href="#"><img src="img/icon-vk.svg" alt="vk">Вконтакте</a>
           </li>
           <li class="facebook">
-            <a class="social-button" href="#">Фейсбук</a>
+            <a class="social-button" href="#"><img src="img/icon-fb.svg" alt="facebook">Фейсбук</a>
           </li>
           <li class="instagram">
-            <a class="social-button" href="#">Инстаграм</a>
+            <a class="social-button" href="#"><img src="img/icon-insta.svg" alt="instagram">Инстаграм</a>
           </li>
         </ul>
       </div>
@@ -293,7 +332,7 @@
     </div>
   </footer>
   <section class="shopping">
-    <h2 class="shop-pop-up">Товар добавлен в карзину!</h2>
+    <h2 class="shop-pop-up"><img src="img/icon-mark.svg" alt="mark">Товар добавлен в карзину!</h2>
     <span class="button">Оформить заказ</span>
     <span class="button">Продолжить покупки</span>
     <span class="close-button">&#10060;</span>
