@@ -9,15 +9,15 @@
 <body>
   <header class="main-header">
     <a class="main-logo-header">
-      <img src="img/logo-technomart.svg" width="220" height="47" alt="Логотип Техномарт">
+      <img src="img/logo-technomart.svg" width="" height="" alt="Логотип Техномарт">
     </a>
     <form>
       <label class="search" for="search-field"></label>
       <input type="text" name="search" id="search-field" placeholder="Поиск">
     </form>
     <div class="navigation-list">
-      <a class="bookmark">Закладки</a>
-      <a class="cart">Корзина</a>
+      <a class="bookmark" href="#">Закладки</a>
+      <a class="cart" href="#">Корзина</a>
     </div>
     <a class="get-order" href="#">Оформить заказ</a>
     <h1 class="visually-hidden">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
@@ -74,17 +74,17 @@
           <li>Автотрейдинг</li>
           <li>ЖелДорЭкспедиция</li>
         </ul>
-        <a href="#"><span class="button company-info-link">Подробнее о компании</span></a>
+        <a class="button company-info-link" href="#">Подробнее о компании</a>
       </article>
       <article class="contacts">
         <h2>КОНТАКТЫ</h2>
         <p>Вы можете забрать товар сами, заехав в наш офис:</p>
-        <a href="#"><span class="button">Заблудились? Напишите нам!</span></a>
+        <a class="button" href="#">Заблудились? Напишите нам!</a>
       </article>
     </section>
   </main>
   <footer class="main-footer">
-    <img src="img/logo-technomart.svg" width="220" height="68" alt="Логотип Техномарт">
+    <img src="img/logo-technomart.svg" width="" height="" alt="Логотип Техномарт">
     <ul>
       <li>
         <a href="#">Компания</a>
@@ -150,10 +150,10 @@
       <input type="text" name="username" id="user-field-id" placeholder="Имя Фамилия">
       <label for="email-field-id">Ваш e-mail:</label>
       <input type="email" name="email" id="email-field-id" placeholder="email@example.com">
-      <p>Текст письма:</p>
+      <label for="writing-field">Текст письма:</label>
       <textarea name="writing" id="writing-field" rows="10" cols="46">В свободной форме</textarea>
-      <input type="submit" value="Отправить">
     </section>
+	<input type="submit" value="Отправить">
   </form>
   <section class="popup-forms">
     <h2 class="hidden">Связаться с нами !</h2>
