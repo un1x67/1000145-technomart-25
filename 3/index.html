@@ -1,69 +1,108 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="utf-8">
   <title>Техномарт</title>
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700|PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
   <base href="https://htmlacademy-htmlcss.github.io/1000145-technomart-25/3/">
 </head>
+
 <body>
   <header class="main-header">
-    <div>
+    <div class="header-navigation">
       <a class="main-logo-header">
-        <img src="img/logo-technomart.svg" width="220" height="47" alt="Логотип Техномарт">
+        <img src="img/logo-technomart.svg" width="108" height="18" alt="Логотип Техномарт">
       </a>
       <form>
-        <label class="search" for="search-field"></label>
-        <input type="text" name="search" id="search-field" placeholder="Поиск">
+        <p class="header-search">
+          <label class="search" for="search-field"></label>
+          <input type="text" name="search" id="search-field" placeholder="Поиск">
+        </p>
       </form>
       <div class="navigation-list">
-        <a class="bookmark">Закладки</a>
-        <a class="cart">Корзина</a>
+        <a class="bookmark" href="#">Закладки</a>
+        <a class="cart" href="#">Корзина</a>
       </div>
       <a class="get-order" href="#">Оформить заказ</a>
     </div>
     <h1 class="visually-hidden">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
     <span>Интернет-магазин строительных материалов и инструментов для ремонта</span>
-    <a class="header-phone" href="tel:+78125550555"><img src="img/icon-phone.svg" alt="Телефон:">+7 (812) 555-05-55</a>
+    <a class="header-phone" href="tel:+78125550555">+7 (812) 555-05-55</a>
     <address class="phone-navigation">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
     <ul class="user-navigation">
-		<li class="login-link">
-          <a href="#">Вход</a>
-        </li>
-        <li class="registration-link">
-          <a href="#">Регистрация</a>
-        </li>
+      <li class="login-link">
+        <a href="#">Вход</a>
+      </li>
+      <li class="registration-link">
+        <a href="#">Регистрация</a>
+      </li>
     </ul>
     <nav class="main-navigation">
-		<ul class="menu">
-			<li>
-				<a href="index.html">Главная</a>
-			</li>
-			<li>
-				<a href="#">Компания</a>
-			</li>
-			<li>
-				<a href="catalog.html">Каталог</a>
-			</li>
-			<li>
-				<a href="#">Новости</a>
-			</li>
-			<li>
-				<a href="#">Спецпредложения</a>
-			</li>
-			<li>
-				<a href="#">Доставка</a>
-			</li>
-			<li>
-				<a href="#">Контакты</a>
-			</li>
-		</ul>
+      <ul class="menu">
+        <li>
+          <a href="index.html">Главная</a>
+        </li>
+        <li>
+          <a href="#">Компания</a>
+        </li>
+        <li>
+          <a href="catalog.html">Каталог</a>
+        </li>
+        <li>
+          <a href="#">Новости</a>
+        </li>
+        <li>
+          <a href="#">Спецпредложения</a>
+        </li>
+        <li>
+          <a href="#">Доставка</a>
+        </li>
+        <li>
+          <a href="#">Контакты</a>
+        </li>
+      </ul>
     </nav>
   </header>
   <main class="container">
-	<!-- section slides -->
-	<!-- section  popular -->
-	<!-- section  brands -->
-	<!-- section servise -->
+    <!-- section slides -->
+    <!-- section  popular -->
+    <section class="brands">
+      <ul>
+        <li>
+          <img src="" width="" height="" alt="">
+        </li>
+        <li>
+          <img src="" width="" height="" alt="">
+        </li>
+        <li>
+          <img src="" width="" height="" alt="">
+        </li>
+        <li>
+          <img src="" width="" height="" alt="">
+        </li>
+        <li>
+          <img src="" width="" height="" alt="">
+        </li>
+        <li>
+          <img src="" width="" height="" alt="">
+        </li>
+        <li>
+          <img src="" width="" height="" alt="">
+        </li>
+        <li>
+          <img src="" width="" height="" alt="">
+        </li>
+      </ul>
+    </section>
+    <section class="services-delivery">
+      <h3>Доставка</h3>
+      <p>
+        Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы не плохо заработаем, поднимая его на ваш этаж.
+      </p>
+    </section>
     <section class="technomart-info">
       <h2 class="visually-hidden">О компании</h2>
       <article class="about-us">
@@ -75,88 +114,93 @@
           <li>Автотрейдинг</li>
           <li>ЖелДорЭкспедиция</li>
         </ul>
-        <a href="#"><span class="button company-info-link">Подробние</span></a>
+        <a class="button company-info-link" href="#">Подробнее о компании</a>
       </article>
       <article class="contacts">
         <h2>КОНТАКТЫ</h2>
         <p>Вы можете забрать товар сами, заехав в наш офис:</p>
-        <a href="#"></a>
-        <span class="button"><a href="#">Заблудились? Напишите нам!</a></span>
+        <a class="button" href="#">Заблудились? Напишите нам!</a>
       </article>
     </section>
   </main>
   <footer class="main-footer">
-    <img src="img/logo-technomart.svg" width="220" height="68" alt="Логотип Техномарт">
+    <img src="img/logo-technomart.svg" width="136" height="21" alt="Логотип Техномарт">
     <ul>
-		<li>
-			<a href="#">Компания</a>
-		</li>
-		<li>
-			<a href="#">Новости</a>
-		</li>
-		<li>
-			<a href="catalog.html">Каталог</a>
-		</li>
-		<li>
-			<a href="#">Доставка</a>
-		</li>
-		<li>
-			<a href="#">Контакты</a>
-		</li>
+      <li>
+        <a href="#">Компания</a>
+      </li>
+      <li>
+        <a href="#">Новости</a>
+      </li>
+      <li>
+        <a href="catalog.html">Каталог</a>
+      </li>
+      <li>
+        <a href="#">Доставка</a>
+      </li>
+      <li>
+        <a href="#">Контакты</a>
+      </li>
     </ul>
     <address class="footer-contacts">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
     <a class="footer-phone" href="tel:+78125550555">+7 (812) 555-05-55</a>
     <ul>
-		<li>
-			<a href="#">Материалы</a>
-		</li>
-		<li>
-			<a href="#">Техника</a>
-		</li>
-		<li>
-			<a href="#">Инструмент</a>
-		</li>
-		<li>
-			<a href="#">Спецпредложения</a>
-		</li>
+      <li>
+        <a href="#">Материалы</a>
+      </li>
+      <li>
+        <a href="#">Техника</a>
+      </li>
+      <li>
+        <a href="#">Инструмент</a>
+      </li>
+      <li>
+        <a href="#">Спецпредложения</a>
+      </li>
     </ul>
     <div class="footer-copyright-text">
-		<p>&#169; 2010–2019 Компания &#171;Техномарт&#187; Все права защищены</p>
-		<div class="footer-social">
-			<ul>
-				<li class="social-item">
-					<a class="social-button" href="#">Вконтакте</a>
-				</li>
-				<li class="social-item">
-					<a class="social-button" href="#">Фейсбук</a>
-				</li>
-				<li class="social-item">
-					<a class="social-button" href="#">Инстаграм</a>
-				</li>
-			</ul>
-		</div>
-		<p class="footer-copyright">
-			Обратная связь:
-			<a class="button" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-		</p>
-		<p>
-			Разработано:
-			<a class="button" href="https://htmlacademy.ru">HTML Academy</a>
-		</p>
+      <p>&#169; 2010–2019 Компания &#171;Техномарт&#187; Все права защищены</p>
+      <div class="footer-social">
+        <ul>
+          <li class="social-item">
+            <a class="social-button" href="#"></a>
+          </li>
+          <li class="social-item">
+            <a class="social-button" href="#"></a>
+          </li>
+          <li class="social-item">
+            <a class="social-button" href="#"></a>
+          </li>
+        </ul>
+      </div>
+      <p class="footer-copyright">
+        Обратная связь:
+        <a class="button" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+      </p>
+      <p>
+        Разработано:
+        <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+      </p>
     </div>
   </footer>
-  <form>
-	<section class="write-us">
-		<h2 class="visually-hidden">Написать нам</h2>
-		<label for="user-field-id">Ваше имя:</label>
-		<input type="text" name="username" id="user-field-id" placeholder="Имя Фамилия">
-		<label for="email-field-id">Ваш e-mail:</label>
-		<input type="email" name="email" id="email-field-id" placeholder="email@example.com">
-		<p>Текст письма:</p>
-		<textarea name="writing" id="writing-field" rows="10" cols="46">В свободной форме</textarea>
-		<input type="submit" value="Отправить">
-	</section>
-  </form>
+  <section class="write-us">
+    <h2 class="visually-hidden">Написать нам</h2>
+    <form>
+      <p class="write-user">
+        <label for="user-field-id">Ваше имя:</label>
+        <input type="text" name="username" id="user-field-id" placeholder="Имя Фамилия">
+      </p>
+      <p class="write-email">
+        <label for="email-field-id">Ваш e-mail:</label>
+        <input type="email" name="email" id="email-field-id" placeholder="email@example.com">
+      </p>
+      <p class="write-writing">
+        <label for="writing-field">Текст письма:</label>
+        <textarea name="writing" id="writing-field" rows="10" cols="46">В свободной форме</textarea>
+      </p>
+      <button type="submit">Отправить</button>
+    </form>
+  </section>
   <section class="popup-forms">
     <h2 class="hidden">Связаться с нами !</h2>
     <!-- forms -->
@@ -167,4 +211,5 @@
     <span class="close-popup">&#10060;</span>
   </section>
 </body>
+
 </html>
