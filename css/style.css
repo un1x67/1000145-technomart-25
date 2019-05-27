@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Cuprum', 'PT Sans';
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-navigation {
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #293449;
+}
+
+.main-navigation {
+  font-size: 17;
+  line-height: 17;
+  color: #ffffff;
+  background-color: #293449;
+}
+
+.login-link,
+.registration-link,
+.menu {
+  list-style: none;
+}
+
+.user-navigation .menu {
+  list-style: none;
+}
+
+.menu a {
+  color: 42aaf;
+  background-color: #ffffff;
+}
