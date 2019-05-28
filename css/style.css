@@ -1,9 +1,9 @@
 body {
   margin: 0;
-  font-family: 'Cuprum', 'PT Sans';
+  font-family: "Cuprum", "PT Sans";
   font-size: 13px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 a {
@@ -12,30 +12,126 @@ a {
 
 .header-navigation {
   font-size: 17px;
-  line-height: 17px;
-  font-weight: 400;
+  line-height: 18px;
   color: #ffffff;
   background-color: #293449;
+}
+
+.main-logo-header {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.main-logo-header a:hover {
+  color: #f5d7d9;
+  background-color: #ca2c37;
+}
+
+.main-logo-header a:focus {
+  color: #e3a6ab;
+  background-color: #ba2732;
+}
+
+.navigation-list a,
+.get-order {
+  color: #ffffff;
+}
+
+.form-search:hover,
+.navigation-list a:hover {
+  color: #afb1b5;
+  background-color: #212a3a;
+}
+
+.navigation-list a:focus {
+  color: #606369;
+  background-color: #161d29;
+}
+
+.get-order:hover {
+  color: #ffffff;
+  background-color: #5fbb2d;
+}
+
+.get-order:focus {
+  color: #b6c8ae;
+  background-color: #518534;
+}
+
+.online-store {
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+  text-align: left;
+  color: #ee4b55;
+  background-color: #f4f7f9;
+}
+
+.header-phone {
+  font-size: 21px;
+  line-height: 21px;
+  color: #ee3643;
+  background-color: #f3f7f9;
+}
+
+.phone-navigation {
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
+  background-color: #f4f7f9;
+}
+}
+
+.user-navigation {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.user-navigation {
+  list-style: none;
+}
+
+.user-navigation a {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.user-navigation a:hover {
+  color: #f05e67;
+  background-color: #ffffff;
+}
+
+.user-navigation a:focus {
+  color: #cecece;
+  background-color: #ffffff;
 }
 
 .main-navigation {
-  font-size: 17;
-  line-height: 17;
+  font-size: 17px;
+  line-height: 17px;
   color: #ffffff;
-  background-color: #293449;
+  background-color: #32425c;
 }
 
-.login-link,
-.registration-link,
 .menu {
   list-style: none;
 }
 
-.user-navigation .menu {
-  list-style: none;
+.menu a {
+  color: #ffffff;
+  background-color: #32425c;
 }
 
-.menu a {
-  color: 42aaf;
-  background-color: #ffffff;
+.menu a:hover {
+  color: #ffffff;
+  background-color: #293449;
+}
+
+.menu a:focus {
+  color: #a8abaf;
+  background-color: #1d2739;
 }
