@@ -82,7 +82,6 @@ a {
   color: #32425c;
   background-color: #f4f7f9;
 }
-}
 
 .user-navigation {
   font-size: 21px;
@@ -134,4 +133,116 @@ a {
 .menu a:focus {
   color: #a8abaf;
   background-color: #1d2739;
+}
+
+.technomart-info {
+  font-family: "Cuprum";
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.technomart-info h2 {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.transport-companies-list {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.button {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.index-columns {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #32425c;
+}
+
+.main-logo-footer {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.footer-list,
+.footer-items {
+  list-style: none;
+}
+
+.footer-list a {
+  color: #ffffff;
+  background-color: #32425c;
+}
+
+.footer-items a {
+  color: #e0ba79;
+  background-color: #32425c;
+}
+
+.footer-list a:hover,
+.footer-items a:hover {
+  text-decoration: underline;
+}
+
+.footer-list a:focus {
+  color: #a4abb4;
+  background-color: #32425c;
+}
+
+.footer-items a:focus {
+  color: #8c7d69;
+  background-color: #32425c;
+}
+
+.footer-copyright-text {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #293449;
+}
+
+.feedback,
+.developed {
+  color: #ffd180;
+  background-color: #293449;
+}
+
+.feedback:hover,
+.developed:hover {
+  text-decoration: underline;
+}
+
+.feedback:focus,
+.developed:focus {
+  color: #ee3643;
+  background-color: #293449;
+}
+
+.write-user {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.username,
+.email,
+.writing {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.write-button {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #ee3643;
 }

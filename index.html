@@ -11,20 +11,20 @@
 
 <body>
   <header class="main-header">
-<div class="header-navigation">
-    <img class="main-logo-header" src="img/logo-technomart.svg" width="108" height="18" alt="Логотип Техномарт">
-    <form>
-      <p class="header-search">
-        <label class="search" for="search-field"></label>
-        <input class="form-search" type="text" name="search" id="search-field" placeholder="Поиск">
-      </p>
-    </form>
-    <div class="navigation-list">
-      <a class="bookmark" href="#">Закладки</a>
-      <a class="cart" href="#">Корзина</a>
+    <div class="header-navigation">
+      <img class="main-logo-header" src="img/logo-technomart.svg" width="108" height="18" alt="Логотип Техномарт">
+      <form>
+        <p class="header-search">
+          <label class="search" for="search-field"></label>
+          <input class="form-search" type="text" name="search" id="search-field" placeholder="Поиск">
+        </p>
+      </form>
+      <div class="navigation-list">
+        <a class="bookmark" href="#">Закладки</a>
+        <a class="cart" href="#">Корзина</a>
+      </div>
+      <a class="get-order" href="#">Оформить заказ</a>
     </div>
-    <a class="get-order" href="#">Оформить заказ</a>
-  </div>
     <h1 class="visually-hidden">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
     <span class="online-store">Интернет-магазин строительных материалов и инструментов для ремонта</span>
     <a class="header-phone" href="tel:+78125550555">+7 (812) 555-05-55</a>
@@ -121,40 +121,42 @@
     </section>
   </main>
   <footer class="main-footer">
-    <img src="img/logo-technomart.svg" width="136" height="21" alt="Логотип Техномарт">
-    <ul class="footer-list">
-      <li>
-        <a href="#">Компания</a>
-      </li>
-      <li>
-        <a href="#">Новости</a>
-      </li>
-      <li>
-        <a href="catalog.html">Каталог</a>
-      </li>
-      <li>
-        <a href="#">Доставка</a>
-      </li>
-      <li>
-        <a href="#">Контакты</a>
-      </li>
-    </ul>
-    <address class="footer-contacts">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
-    <a class="footer-phone" href="tel:+78125550555">+7 (812) 555-05-55</a>
-    <ul class="footer-items">
-      <li>
-        <a href="#">Материалы</a>
-      </li>
-      <li>
-        <a href="#">Техника</a>
-      </li>
-      <li>
-        <a href="#">Инструмент</a>
-      </li>
-      <li>
-        <a href="#">Спецпредложения</a>
-      </li>
-    </ul>
+    <div class="index-columns">
+      <img class="main-logo-footer" src="img/logo-technomart.svg" width="136" height="21" alt="Логотип Техномарт">
+      <ul class="footer-list">
+        <li>
+          <a href="#">Компания</a>
+        </li>
+        <li>
+          <a href="#">Новости</a>
+        </li>
+        <li>
+          <a href="catalog.html">Каталог</a>
+        </li>
+        <li>
+          <a href="#">Доставка</a>
+        </li>
+        <li>
+          <a href="#">Контакты</a>
+        </li>
+      </ul>
+      <address class="footer-contacts">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+      <a class="footer-phone" href="tel:+78125550555">+7 (812) 555-05-55</a>
+      <ul class="footer-items">
+        <li>
+          <a href="#">Материалы</a>
+        </li>
+        <li>
+          <a href="#">Техника</a>
+        </li>
+        <li>
+          <a href="#">Инструмент</a>
+        </li>
+        <li>
+          <a href="#">Спецпредложения</a>
+        </li>
+      </ul>
+    </div>
     <div class="footer-copyright-text">
       <p>&#169; 2010–2019 Компания &#171;Техномарт&#187; Все права защищены</p>
       <div class="footer-social">
@@ -172,11 +174,11 @@
       </div>
       <p class="footer-copyright">
         Обратная связь:
-        <a class="button" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+        <a class="feedback" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
       </p>
       <p>
         Разработано:
-        <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+        <a class="developed" href="https://htmlacademy.ru">HTML Academy</a>
       </p>
     </div>
   </footer>
@@ -185,17 +187,17 @@
     <form>
       <p class="write-user">
         <label for="user-field-id">Ваше имя:</label>
-        <input type="text" name="username" id="user-field-id" placeholder="Имя Фамилия">
+        <input class="username" type="text" name="username" id="user-field-id" placeholder="Имя Фамилия">
       </p>
       <p class="write-email">
         <label for="email-field-id">Ваш e-mail:</label>
-        <input type="email" name="email" id="email-field-id" placeholder="email@example.com">
+        <input class="email" type="email" name="email" id="email-field-id" placeholder="email@example.com">
       </p>
       <p class="write-writing">
         <label for="writing-field">Текст письма:</label>
-        <textarea name="writing" id="writing-field" rows="10" cols="46">В свободной форме</textarea>
+        <textarea class="writing" name="writing" id="writing-field" rows="10" cols="46">В свободной форме</textarea>
       </p>
-      <button type="submit">Отправить</button>
+      <button class="write-button" type="submit">Отправить</button>
     </form>
   </section>
   <section class="popup-forms">
