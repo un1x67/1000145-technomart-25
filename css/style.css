@@ -43,7 +43,7 @@ a {
   background-color: #ba2732;
 }
 
-.form-search{
+.header-search input {
   border: none;
   color: #ffffff;
   background-color: #293449;
@@ -54,7 +54,7 @@ a {
   color: #ffffff;
 }
 
-.form-search:hover,
+.header-search input:hover,
 .navigation-list a:hover {
   color: #afb1b5;
   background-color: #212a3a;
