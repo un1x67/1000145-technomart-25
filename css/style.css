@@ -29,9 +29,16 @@ a {
   background-color: #ca2c37;
 }
 
-.main-logo-header a:focus {
+.main-logo-header a:focus,
+.main-logo-header a:active {
   color: #e3a6ab;
   background-color: #ba2732;
+}
+
+.form-search{
+  border: none;
+  color: #ffffff;
+  background-color: #293449;
 }
 
 .navigation-list a,
@@ -45,7 +52,8 @@ a {
   background-color: #212a3a;
 }
 
-.navigation-list a:focus {
+.navigation-list a:focus,
+.navigation-list a:active {
   color: #606369;
   background-color: #161d29;
 }
@@ -55,7 +63,8 @@ a {
   background-color: #5fbb2d;
 }
 
-.get-order:focus {
+.get-order:focus,
+.get-order:active {
   color: #b6c8ae;
   background-color: #518534;
 }
@@ -104,7 +113,8 @@ a {
   background-color: #ffffff;
 }
 
-.user-navigation a:focus {
+.user-navigation a:focus,
+.user-navigation a:active {
   color: #cecece;
   background-color: #ffffff;
 }
@@ -130,7 +140,8 @@ a {
   background-color: #293449;
 }
 
-.menu a:focus {
+.menu a:focus,
+.menu a:active {
   color: #a8abaf;
   background-color: #1d2739;
 }
@@ -194,12 +205,14 @@ a {
   text-decoration: underline;
 }
 
-.footer-list a:focus {
+.footer-list a:focus,
+.footer-list a:active {
   color: #a4abb4;
   background-color: #32425c;
 }
 
-.footer-items a:focus {
+.footer-items a:focus,
+.footer-items a:active {
   color: #8c7d69;
   background-color: #32425c;
 }
@@ -223,7 +236,9 @@ a {
 }
 
 .feedback:focus,
-.developed:focus {
+.feedback:active,
+.developed:focus,
+.developed:active {
   color: #ee3643;
   background-color: #293449;
 }
