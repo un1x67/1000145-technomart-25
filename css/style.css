@@ -10,6 +10,14 @@ a {
   text-decoration: none;
 }
 
+.main-header {
+  color: #ffffff;
+  background-color: #f4f7f9;
+  background-image: url("img/header top background.svg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
 .header-navigation {
   font-size: 17px;
   line-height: 18px;
@@ -83,6 +91,7 @@ a {
   line-height: 21px;
   color: #ee3643;
   background-color: #f3f7f9;
+  border: 5px solid #ffffff;
 }
 
 .phone-navigation {
@@ -222,6 +231,10 @@ a {
   line-height: 18px;
   color: #ffffff;
   background-color: #293449;
+}
+
+.footer-social-list {
+text-align: center;
 }
 
 .feedback,
