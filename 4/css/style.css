@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  font-family: "Cuprum", "PT Sans";
-  font-size: 13px;
-  line-height: 24px;
+  font-family: "Cuprum", "Arial Narrow", sans-serif;
+  font-size: 17px;
+  line-height: 17px;
   font-weight: 400;
 }
 
@@ -13,9 +13,13 @@ a {
 .main-header {
   color: #ffffff;
   background-color: #f4f7f9;
-  background-image: url("img/header top background.svg");
+  background-image: url("img/header_top_background.svg");
   background-position: 0 0;
   background-repeat: repeat;
+}
+
+.visually-hidden {
+  visibility: hidden;
 }
 
 .header-navigation {
@@ -32,13 +36,13 @@ a {
   background-color: #ee3643;
 }
 
-.main-logo-header a:hover {
+.main-logo-header:hover {
   color: #f5d7d9;
   background-color: #ca2c37;
 }
 
-.main-logo-header a:focus,
-.main-logo-header a:active {
+.main-logo-header:focus,
+.main-logo-header:active {
   color: #e3a6ab;
   background-color: #ba2732;
 }
@@ -49,9 +53,14 @@ a {
   background-color: #293449;
 }
 
+::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
 .navigation-list a,
 .get-order {
   color: #ffffff;
+  background-color: #293449;
 }
 
 .header-search input:hover,
@@ -60,6 +69,7 @@ a {
   background-color: #212a3a;
 }
 
+.header-search input:focus,
 .navigation-list a:focus,
 .navigation-list a:active {
   color: #606369;
@@ -94,9 +104,10 @@ a {
   border: 5px solid #ffffff;
 }
 
-.phone-navigation {
+.phone-address {
   font-size: 14px;
   line-height: 24px;
+  font-style: normal;
   color: #32425c;
   background-color: #f4f7f9;
 }
@@ -156,7 +167,6 @@ a {
 }
 
 .technomart-info {
-  font-family: "Cuprum";
   font-size: 13px;
   line-height: 24px;
   color: #000000;
@@ -173,11 +183,18 @@ a {
   line-height: 20px;
 }
 
-.button {
+.company-info-link {
   font-size: 14px;
   line-height: 18px;
   color: #ffffff;
   background-color: #ee3643;
+  border: none;
+}
+
+.Continue-shopping {
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
 }
 
 .index-columns {
@@ -192,6 +209,11 @@ a {
   line-height: 24px;
   color: #ffffff;
   background-color: #ee3643;
+}
+
+.footer-phone {
+  color: #ffffff;
+  background-color: #32425c;
 }
 
 .footer-list,
@@ -211,7 +233,7 @@ a {
 
 .footer-list a:hover,
 .footer-items a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .footer-list a:focus,
@@ -234,7 +256,7 @@ a {
 }
 
 .footer-social-list {
-text-align: center;
+  text-align: center;
 }
 
 .feedback,
@@ -245,7 +267,7 @@ text-align: center;
 
 .feedback:hover,
 .developed:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .feedback:focus,
@@ -273,4 +295,90 @@ text-align: center;
   line-height: 18px;
   color: #ffffff;
   background-color: #ee3643;
+}
+
+.checkbox-item {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.checkbox-list,
+.buttery-list {
+  list-style: none;
+}
+.checkbox-item input {
+  border: 4px solid #c5c5c5;
+  background-color: #ffffff;
+}
+
+.checkbox-item input:hover {
+  border: 4px solid #b5b5b5;
+  background-color: #ffffff;
+}
+
+.checkbox-item input:focus,
+.checkbox-item input:active {
+  border: 4px solid #e9e9e9;
+  background-color: #ffffff;
+}
+
+.shopping-item {
+  list-style: none;
+  background-image: url("img/Layer_124.svg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.buy {
+  color: #ffffff;
+  background-color: #63a63e;
+  border: none;
+}
+
+.buy:hover {
+  color: #ffffff;
+  background-color: #5fbb2d;
+}
+
+.buy:focus,
+.buy:active {
+  color: #ffffff;
+  background-color: #518534;
+}
+
+.bin-the-bookmark {
+  color: #32425c;
+  background-color: #ffffff;
+  border: 4px solid #63a63e;
+}
+
+.bin-the-bookmark:hover {
+  color: #32425c;
+  background-color: #ffffff;
+  border: 4px solid #32425c;
+}
+
+.bin-the-bookmark:focus,
+.bin-the-bookmark:active {
+  color: #fd0d2d6;
+  background-color: #ffffff;
+  border: 4px solid #c1c6ce;
+}
+
+.catalog-item h3 {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.show {
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
 }
