@@ -46,7 +46,7 @@ a {
  outline: none;
 }
 
-.search::-webkit-input-placeholder {
+ .header-search input::-webkit-input-placeholder {
   color: #ffffff;
   background-color: #293449;
 }
@@ -67,8 +67,8 @@ a {
   background-color: #212a3a;
 }
 
-.header-search input:focus,
-.header-search input:active {
+ input::-webkit-input-placeholder:focus,
+ input::-webkit-input-placeholder:active {
   color: #000000;
   background-color: #ffffff;
 }
@@ -355,12 +355,11 @@ a {
   line-height: 18px;
 }
 
-.write-us input,
-.write-us textarea {
+.write-us input::-webkit-input-placeholder,
+.write-us textarea::-webkit-input-placeholder {
   font-size: 13px;
   line-height: 18px;
   color: #a9a9a9;
-  border: 2px solid #d7dcde;
   background-color: #ffffff;
 }
 
