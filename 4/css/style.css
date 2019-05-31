@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: "Cuprum", "Arial Narrow", sans-serif;
-  font-size: 17px;
+  font-family: Cuprum, Arial, sans-serif;
+  font-size: 13px;
   line-height: 17px;
   font-weight: 400;
 }
@@ -12,14 +12,7 @@ a {
 
 .main-header {
   color: #ffffff;
-  background-color: #f4f7f9;
-  background-image: url("img/header_top_background.svg");
-  background-position: 0 0;
-  background-repeat: repeat;
-}
-
-.visually-hidden {
-  visibility: hidden;
+  background-color: #f2f6f8;
 }
 
 .header-navigation {
@@ -29,7 +22,8 @@ a {
   background-color: #293449;
 }
 
-.main-logo-header {
+.main-logo-header,
+.main-logo-index-header {
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
@@ -49,31 +43,43 @@ a {
 
 .header-search input {
   border: none;
-  color: #ffffff;
-  background-color: #293449;
+  outline: none;
 }
 
-::-webkit-input-placeholder {
+input::-webkit-input-placeholder {
   color: #ffffff;
 }
 
-.navigation-list a,
-.get-order {
+.header-search input {
+  background-color: transparent;
+}
+
+.navigation-list a {
   color: #ffffff;
   background-color: #293449;
 }
 
 .header-search input:hover,
 .navigation-list a:hover {
-  color: #afb1b5;
+  color: #ffffff;
   background-color: #212a3a;
 }
 
 .header-search input:focus,
+.header-search input:active {
+  color: #000000;
+  background-color: #ffffff;
+}
+
 .navigation-list a:focus,
 .navigation-list a:active {
-  color: #606369;
+  color: #abacaf;
   background-color: #161d29;
+}
+
+.get-order {
+  color: #ffffff;
+  background-color: #63a63e;
 }
 
 .get-order:hover {
@@ -85,6 +91,17 @@ a {
 .get-order:active {
   color: #b6c8ae;
   background-color: #518534;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .online-store {
@@ -99,6 +116,7 @@ a {
 .header-phone {
   font-size: 21px;
   line-height: 21px;
+  text-align: center;
   color: #ee3643;
   background-color: #f3f7f9;
   border: 5px solid #ffffff;
@@ -108,15 +126,16 @@ a {
   font-size: 14px;
   line-height: 24px;
   font-style: normal;
+  text-align: center;
   color: #32425c;
-  background-color: #f4f7f9;
+  background-color: #f3f7f9;
 }
 
 .user-navigation {
   font-size: 21px;
   line-height: 21px;
   color: #000000;
-  background-color: #f4f7f9;
+  background-color: #f3f7f9;
 }
 
 .user-navigation {
@@ -129,13 +148,13 @@ a {
 }
 
 .user-navigation a:hover {
-  color: #f05e67;
+  color: #ee3643;
   background-color: #ffffff;
 }
 
 .user-navigation a:focus,
 .user-navigation a:active {
-  color: #cecece;
+  color: #c5c5c5;
   background-color: #ffffff;
 }
 
@@ -162,25 +181,55 @@ a {
 
 .menu a:focus,
 .menu a:active {
-  color: #a8abaf;
+  color: #a1a4a8;
   background-color: #1d2739;
 }
 
+.services-delivery {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #f4f8f9;
+}
+
+.service {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.delivery {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #32425c;
+  background-color: #f4f8f9;
+}
+
 .technomart-info {
+  font-family: PT Sans, Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
   color: #000000;
   background-color: #ffffff;
 }
 
-.technomart-info h2 {
+.about-us h2,
+.contacts h2 {
   font-size: 30px;
   line-height: 30px;
+  font-weight: 400;
 }
 
 .transport-companies-list {
   font-size: 18px;
   line-height: 20px;
+}
+
+.transport-companies-list {
+  list-style: none;
 }
 
 .company-info-link {
@@ -191,10 +240,9 @@ a {
   border: none;
 }
 
-.Continue-shopping {
-  color: #000000;
-  background-color: #ffffff;
-  border: none;
+.company-info-link:hover {
+  color: #ffffff;
+  background-color: #ca2c37;
 }
 
 .index-columns {
@@ -204,16 +252,21 @@ a {
   background-color: #32425c;
 }
 
-.main-logo-footer {
-  font-size: 18px;
-  line-height: 24px;
+.main-logo-footer,
+.main-logo-index-footer {
   color: #ffffff;
   background-color: #ee3643;
 }
 
-.footer-phone {
-  color: #ffffff;
-  background-color: #32425c;
+.main-logo-footer:hover {
+  color: #f5d7d9;
+  background-color: #ca2c37;
+}
+
+.main-logo-footer:focus,
+.main-logo-footer:active {
+  color: #e3a6ab;
+  background-color: #ba2732;
 }
 
 .footer-list,
@@ -226,6 +279,11 @@ a {
   background-color: #32425c;
 }
 
+.footer-phone {
+  color: #ffffff;
+  background-color: #32425c;
+}
+
 .footer-items a {
   color: #e0ba79;
   background-color: #32425c;
@@ -233,7 +291,7 @@ a {
 
 .footer-list a:hover,
 .footer-items a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .footer-list a:focus,
@@ -256,7 +314,19 @@ a {
 }
 
 .footer-social-list {
-  text-align: center;
+  list-style: none;
+}
+
+.footer-social-list a {
+  color: #ffffff;
+  background-color: #212a3a;
+}
+
+.social-item a:hover,
+.social-item a:focus,
+.social-item a:active {
+  color: #ffffff;
+  background-color: #ee3643;
 }
 
 .feedback,
@@ -267,7 +337,7 @@ a {
 
 .feedback:hover,
 .developed:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .feedback:focus,
@@ -278,64 +348,140 @@ a {
   background-color: #293449;
 }
 
-.write-user {
+.write-us {
   font-size: 18px;
   line-height: 18px;
 }
 
-.username,
-.email,
-.writing {
+.write-us input::-webkit-input-placeholder,
+.write-us textarea::-webkit-input-placeholder {
   font-size: 13px;
   line-height: 18px;
+  color: #a9a9a9;
+  background-color: #ffffff;
 }
 
-.write-button {
-  font-size: 14px;
+.write-us input:hover,
+.write-us textarea:hover {
+  color: #000000;
+  border: 2px solid #b5b5b5;
+  background-color: #ffffff;
+}
+
+.write-us input:focus,
+.write-us input:active,
+.write-us textarea:focus,
+.write-us textarea:active {
+  color: #000000;
+  outline: none;
+  border: 2px solid #ee3643;
+  background-color: #ffffff;
+}
+
+/*catalog*/
+.breadcrumbs {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
   line-height: 18px;
-  color: #ffffff;
-  background-color: #ee3643;
-}
-
-.checkbox-item {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 15px;
-  line-height: 20px;
+  font-weight: 400;
   color: #000000;
   background-color: #ffffff;
 }
 
-.checkbox-list,
+.perforator {
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+  background-color: #f2f6f8;
+}
+
+.manufacturer {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.checkbox-list {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.checkbox-list {
+  list-style: none;
+}
+
+.supply {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
 .buttery-list {
   list-style: none;
 }
-.checkbox-item input {
-  border: 4px solid #c5c5c5;
+
+.show {
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
   background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  outline: none;
 }
 
-.checkbox-item input:hover {
-  border: 4px solid #b5b5b5;
-  background-color: #ffffff;
+.catalog-item {
+  border: 1px solid #e5e5e5;
 }
 
-.checkbox-item input:focus,
-.checkbox-item input:active {
-  border: 4px solid #e9e9e9;
-  background-color: #ffffff;
-}
-
-.shopping-item {
+.catalog-item {
   list-style: none;
-  background-image: url("img/Layer_124.svg");
-  background-position: 0 0;
-  background-repeat: repeat;
+}
+
+.catalog-item h3 {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.price {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.last-price {
+  color: #999999;
+  background-color: #ffffff;
+  text-decoration: line-through;
+}
+
+.current {
+  color: #ffffff;
+  background-color: #ee3643;
 }
 
 .buy {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
   color: #ffffff;
   background-color: #63a63e;
   border: none;
+  outline: none;
 }
 
 .buy:hover {
@@ -352,33 +498,86 @@ a {
 .bin-the-bookmark {
   color: #32425c;
   background-color: #ffffff;
-  border: 4px solid #63a63e;
+  border: 3px solid #63a63e;
+  outline: none;
 }
 
 .bin-the-bookmark:hover {
   color: #32425c;
   background-color: #ffffff;
-  border: 4px solid #32425c;
+  border: 3px solid #32425c;
 }
 
 .bin-the-bookmark:focus,
 .bin-the-bookmark:active {
   color: #fd0d2d6;
   background-color: #ffffff;
-  border: 4px solid #c1c6ce;
+  border: 3px solid #c1c6ce;
 }
 
-.catalog-item h3 {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: 700;
-}
-
-.show {
+.page {
+  font-family: PT Sans, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #f2f6f8;
+}
+
+.page {
+  list-style: none;
+}
+
+.page a {
   color: #000000;
   background-color: #ffffff;
+}
+
+.page-active-item {
+  color: #ffffff;
+  background-color: #ee3643;
+  border: 3px solid #ee3643;
+  border-radius: 3px;
+}
+
+.page-item {
   border: 1px solid #e5e5e5;
+}
+
+.page-item:hover {
+  border: 1px solid #bdc6ca;
+}
+
+.page-item:focus,
+.page-item:active {
+  border: 1px solid #ee3643;
+}
+
+.shopping {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.shopping h2 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.shopping-list {
+  color: #ffffff;
+  background-color: #f1f1f1;
+}
+
+.shopping-item {
+  list-style: none;
+}
+
+.Continue-shopping {
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
 }
