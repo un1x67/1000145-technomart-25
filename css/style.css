@@ -363,7 +363,7 @@ input::-webkit-input-placeholder {
 
 .write-us input:hover,
 .write-us textarea:hover {
-  color: #a9a9a9;
+  color: #000000;
   border: 2px solid #b5b5b5;
   background-color: #ffffff;
 }
@@ -372,7 +372,7 @@ input::-webkit-input-placeholder {
 .write-us input:active,
 .write-us textarea:focus,
 .write-us textarea:active {
-  color: #a9a9a9;
+  color: #000000;
   outline: none;
   border: 2px solid #ee3643;
   background-color: #ffffff;
