@@ -22,7 +22,8 @@ a {
   background-color: #293449;
 }
 
-.main-logo-header {
+.main-logo-header,
+.main-logo-index-header {
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
@@ -64,6 +65,12 @@ a {
 .navigation-list a:hover {
   color: #ffffff;
   background-color: #212a3a;
+}
+
+.header-search input:focus,
+.header-search input:active {
+  color: #000000;
+  background-color: #ffffff;
 }
 
 .navigation-list a:focus,
@@ -247,7 +254,8 @@ a {
   background-color: #32425c;
 }
 
-.main-logo-footer {
+.main-logo-footer,
+.main-logo-index-footer {
   color: #ffffff;
   background-color: #ee3643;
 }
