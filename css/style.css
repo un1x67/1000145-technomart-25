@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Cuprum, Arial, sans-serif;
   font-size: 13px;
-  line-height: 17px;
+  line-height: 18px;
   font-weight: 400;
 }
 
@@ -17,7 +17,6 @@ a {
 
 .header-navigation {
   font-size: 17px;
-  line-height: 18px;
   color: #ffffff;
   background-color: #293449;
 }
@@ -46,7 +45,7 @@ a {
   outline: none;
 }
 
-input::-webkit-input-placeholder {
+.header-search input::placeholder {
   color: #ffffff;
 }
 
@@ -69,6 +68,8 @@ input::-webkit-input-placeholder {
 .header-search input:active {
   color: #000000;
   background-color: #ffffff;
+
+
 }
 
 .navigation-list a:focus,
@@ -234,7 +235,6 @@ input::-webkit-input-placeholder {
 
 .company-info-link {
   font-size: 14px;
-  line-height: 18px;
   color: #ffffff;
   background-color: #ee3643;
   border: none;
@@ -350,15 +350,20 @@ input::-webkit-input-placeholder {
 
 .write-us {
   font-size: 18px;
-  line-height: 18px;
 }
 
-.write-us input::-webkit-input-placeholder,
-.write-us textarea::-webkit-input-placeholder {
+.write-us input::placeholder,
+.write-us textarea::placeholder {
   font-size: 13px;
-  line-height: 18px;
   color: #a9a9a9;
-  background-color: #ffffff;
+
+}
+.write-us input,
+.write-us textarea {
+  color: #a9a9a9;
+  border: 2px solid #dee3e4;
+  background-color: transparent;
+
 }
 
 .write-us input:hover,
@@ -382,7 +387,6 @@ input::-webkit-input-placeholder {
 .breadcrumbs {
   font-family: PT Sans, Arial, sans-serif;
   font-size: 13px;
-  line-height: 18px;
   font-weight: 400;
   color: #000000;
   background-color: #ffffff;
@@ -432,7 +436,6 @@ input::-webkit-input-placeholder {
 
 .show {
   font-size: 13px;
-  line-height: 18px;
   color: #000000;
   background-color: #ffffff;
   border: 1px solid #e5e5e5;
@@ -459,7 +462,6 @@ input::-webkit-input-placeholder {
 .price {
   font-family: PT Sans, Arial, sans-serif;
   font-size: 17px;
-  line-height: 18px;
   font-weight: 700;
 }
 
@@ -476,12 +478,12 @@ input::-webkit-input-placeholder {
 
 .buy {
   font-size: 14px;
-  line-height: 18px;
   font-weight: 400;
   color: #ffffff;
   background-color: #63a63e;
   border: none;
   outline: none;
+  box-sizing: border-box;
 }
 
 .buy:hover {
@@ -518,7 +520,6 @@ input::-webkit-input-placeholder {
 .page {
   font-family: PT Sans, Arial, sans-serif;
   font-size: 13px;
-  line-height: 18px;
   font-weight: 400;
   color: #000000;
   background-color: #f2f6f8;
@@ -555,7 +556,6 @@ input::-webkit-input-placeholder {
 
 .shopping {
   font-size: 14px;
-  line-height: 18px;
   font-weight: 400;
   color: #000000;
   background-color: #ffffff;
@@ -576,7 +576,7 @@ input::-webkit-input-placeholder {
   list-style: none;
 }
 
-.Continue-shopping {
+.сontinue-shopping {
   color: #000000;
   background-color: #ffffff;
   border: none;
