@@ -27,6 +27,8 @@ a {
   line-height: 24px;
   color: #ffffff;
   background-color: #ee3643;
+  width: 247px;
+  box-sizing: border-box;
 }
 
 .main-logo-header:hover {
@@ -53,6 +55,10 @@ a {
   background-color: transparent;
 }
 
+.header-search input::placeholder {
+	color: #ffffff;
+}
+
 .navigation-list a {
   color: #ffffff;
   background-color: #293449;
@@ -64,8 +70,9 @@ a {
   background-color: #212a3a;
 }
 
-.header-search input:focus,
-.header-search input:active {
+
+  .header-search input:focus,
+  .header-search input:active{
   color: #000000;
   background-color: #ffffff;
 
@@ -79,8 +86,12 @@ a {
 }
 
 .get-order {
+  text-align: center;
   color: #ffffff;
   background-color: #63a63e;
+  width: 150px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .get-order:hover {
@@ -157,6 +168,11 @@ a {
 .user-navigation a:active {
   color: #c5c5c5;
   background-color: #ffffff;
+}
+
+.login-link {
+	width: 121px;
+	box-sizing: border-box;
 }
 
 .main-navigation {
