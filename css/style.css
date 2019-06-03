@@ -67,10 +67,54 @@ a {
   background-color: #212a3a;
 }
 
-.header-search input:focus,
+.header-search input:focus::placeholder {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.header-search input:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+
 .header-search input:active {
   color: #000000;
   background-color: #ffffff;
+}
+
+.header-search input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.header-search input:focus::-webkit-input-placeholder {
+  color: #000000;
+}
+
+/* Firefox < 19 */
+.header-search input:-moz-placeholder {
+  color: #ffffff;
+}
+
+.header-search input:focus:-moz-placeholder {
+  color: #000000;
+}
+
+/* Firefox > 19 */
+.header-search input::-moz-placeholder {
+  color: #ffffff;
+}
+
+.header-search input:focus::-moz-placeholder {
+  color: #000000;
+}
+
+/* Internet Explorer 10 */
+.header-search input:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.header-search input:focus:-ms-input-placeholder {
+  color: #000000;
 }
 
 .navigation-list a:focus,
@@ -318,7 +362,6 @@ a {
 
 .footer-copyright-text {
   font-size: 16px;
-  line-height: 18px;
   color: #ffffff;
   background-color: #293449;
 }
@@ -393,10 +436,66 @@ a {
 }
 
 /*catalog*/
+.header-user {
+  font-size: 16px;
+  color: #000000;
+  background-color: #f1f5f7;
+}
+
+.header-user-name {
+  font-size: 21px;
+  line-height: 21px;
+  color: inherit;
+  background-color: #ffffff;
+}
+
+.header-user a:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.header-user a:focus,
+.header-user a:active {
+  color: #c5c5c5;
+  background-color: #ffffff;
+}
+
+.user-links {
+  list-style: none;
+}
+
+.user-links a {
+  color: #32425c;
+  background-color: #f1f5f7;
+  border-bottom: 1px solid #32425c;
+}
+
+.user-links a:hover {
+  color: #ee4a55;
+  background-color: #f1f5f7;
+  border-bottom: 1px solid #ee4a55;
+}
+
+.user-links a:focus,
+.user-links a:active {
+  color: #c5cad0;
+  background-color: #f1f5f7;
+  border-bottom: 1px solid #c5cad0;
+}
+
 .breadcrumbs {
   font-family: PT Sans, Arial, sans-serif;
   font-size: 13px;
   font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.breadcrumbs {
+  list-style: none;
+}
+
+.breadcrumbs a {
   color: #000000;
   background-color: #ffffff;
 }
@@ -417,11 +516,17 @@ a {
   background-color: #ffffff;
 }
 
-.checkbox-list {
+.tool-manufacturers {
   font-family: PT Sans, Arial, sans-serif;
   font-size: 15px;
   line-height: 20px;
   font-weight: 400;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.checkbox-list {
   color: #000000;
   background-color: #ffffff;
 }
@@ -431,10 +536,6 @@ a {
 }
 
 .supply {
-  font-family: PT Sans, Arial, sans-serif;
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: 400;
   color: #000000;
   background-color: #ffffff;
 }
