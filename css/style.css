@@ -1025,11 +1025,13 @@ a {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .facebook-button {
   background-image: url("../img/icon-fb.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .instagram-button {
   background-image: url("../img/icon-insta.svg");
   background-repeat: no-repeat;
@@ -1253,7 +1255,7 @@ a {
   fill: #c5c5c5;
 }
 
-.container{
+.container {
   width: 100%;
 }
 
@@ -1429,7 +1431,6 @@ a {
   box-sizing: border-box;
   width: 95px;
   padding: 10px 10px;
-
   font-family: "PT Sans", sans-serif;
   font-size: 17px;
   line-height: 18px;
@@ -1494,7 +1495,6 @@ a {
   margin-bottom: 19px;
   padding-left: 35px;
 }
-
 
 .manufacturer {
   font-family: PT Sans, Arial, sans-serif;
@@ -1581,8 +1581,6 @@ input[type="radio"].visually-hidden {
   color: #ee3643;
   background-color: inherit;
 }
-
-
 
 .catalog-item {
   border: 1px solid #e5e5e5;
