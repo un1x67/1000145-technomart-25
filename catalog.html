@@ -156,24 +156,26 @@
         </form>
       </section>
       <article class="catolog">
-        <ul class="sort-list">
-          <li>СОРТИРОВКА:</li>
-          <li class="sort-item"><a href="#">ПО ЦЕНЕ</a></li>
-          <li class="sort-item"><a href="#">ПО ТИПУ</a></li>
-          <li class="sort-item"><a href="#">ПО ФУНКЦИОНАЛУ</a></li>
-          <li class="sort-item">
-            <a class="icon-up-dir" href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
-                <path fill="#c5c5c5" d="M5.5 0L0 10h11z" /></svg>
-            </a>
-          </li>
-          <li class="sort-item">
-            <a class="icon-down-dir" href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
-                <path fill="#c5c5c5" d="M5.5 10L0 0h11" /></svg>
-            </a>
-          </li>
-        </ul>
+        <div class="catolog-sort">
+          <ul class="sort-list">
+            <li>СОРТИРОВКА:</li>
+            <li class="sort-item at-the-price"><a href="#">ПО ЦЕНЕ</a></li>
+            <li class="sort-item"><a href="#">ПО ТИПУ</a></li>
+            <li class="sort-item"><a href="#">ПО ФУНКЦИОНАЛУ</a></li>
+            <li>
+              <a class="icon-up-dir icon-dir-selected" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+                  <path fill="#c5c5c5" d="M5.5 0L0 10h11z" /></svg>
+              </a>
+            </li>
+            <li class="sort-item">
+              <a class="icon-down-dir" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+                  <path fill="#c5c5c5" d="M5.5 10L0 0h11" /></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
         <h2 class="visually-hidden">Список инструмента</h2>
         <ul class="catalog-list">
           <li class="catalog-item">
@@ -327,10 +329,10 @@
       </article>
       <h2 class="visually-hidden">Нагинация</h2>
       <ul class="page">
-        <li class="page-active-item">1</li>
+        <li class="page-item page-active-item">1</li>
         <li class="page-item"><a href="#">2</a></li>
         <li class="page-item"><a href="#">3</a></li>
-        <li class="page-item"><a href="#">СЛЕДУЮЩАЯ</a></li>
+        <li class="page-item page-item-word"><a href="#">СЛЕДУЮЩАЯ</a></li>
       </ul>
     </div>
     <section class="services-delivery">
