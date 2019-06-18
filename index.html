@@ -86,11 +86,17 @@
           <div class="main-technic-icon"></div>
         </div>
         <div class="offer offer-item main-offer-slider">
-          <button class="slyder-arrow-left" type="button"></button>
-          <button class="slyder-arrow-right" type="button"></button>
-          <button class="slyder-point" type="button"></button>
-          <button class="slyder-point-selected" type="button"></button>
-          <div class="main-slyder-container-1">
+          <ul class="slider-switches">
+            <li class="slider-toggle">
+              <input class="slider-input-radio" type="radio" name="toggles-group" value="toggle-1" id="slider-toggle-1" checked>
+              <label class="slider-label visually-hidden" for="slider-toggle-1">Первый слайд</label>
+            </li>
+            <li class="slider-toggle">
+              <input class="slider-input-radio" type="radio" name="toggles-group" value="toggle-2" id="slider-toggle-2">
+              <label class="slider-label visually-hidden" for="slider-toggle-2">Второй слайд</label>
+            </li>
+          </ul>
+          <div class="main-slyder-container-1 slide-active">
             <h3 class="slyder-title">Дрели</h3>
             <p class="slyder-text">Соседям на радость!</p>
             <a class="slyder-button" href="catalog.html">Открыть каталог</a>
@@ -98,19 +104,25 @@
           <div class="main-slyder-container-2">
             <h3 class="slyder-title">Перфораторы</h3>
             <p class="slyder-text">Настоящие мужские игрушки</p>
-            <div class="Open-directory">
+            <div class="open-directory">
               <a class="slyder-button" href="catalog.html">Открыть каталог</a>
             </div>
           </div>
+          <button class="slider-btn slider-right-btn" type="button" tabindex="0">
+            <span class="visually-hidden">Листать вправо</span>
+          </button>
+          <button class="slider-btn slider-left-btn" type="button" tabindex="0">
+            <span class="visually-hidden">Листать влево</span>
+          </button>
         </div>
         <div class="main-offer-2">
-          <div class="main-offer-sale">
+          <div class="offer offer-item main-offer-sale">
             <div class="flag">новинка</div>
             <h3 class="offer-title">Скидки 50%</h3>
             <a class="offer-button" href="#">На 350 товаров</a>
             <div class="main-sale-icon"></div>
           </div>
-          <div class="main-offer-delivery">
+          <div class="offer offer-item main-offer-delivery">
             <h3 class="offer-title">Доставка</h3>
             <a class="offer-button" href="#">Бесплатно</a>
             <div class="main-delivery-icon"></div>
