@@ -1411,6 +1411,38 @@ img {
   width: 100%;
 }
 
+.user-menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425c;
+  text-decoration: underline;
+  list-style: none;
+}
+
+.user-menu li {
+  position: relative;
+}
+
+.user-menu li::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  width: 5px;
+  height: 5px;
+  background-color: #32425c;
+  border-radius: 50%;
+}
+
+.user-menu li:first-child::after {
+  display: none;
+}
+
 .user-menu a {
   color: #32425c;
   background-color: #f1f5f7;
@@ -1443,6 +1475,10 @@ img {
 .user-menu a:active {
   color: #32425c;
   opacity: 0.3;
+}
+
+.personal-account {
+  padding-left: 10px;
 }
 
 .breadcrumbs {
