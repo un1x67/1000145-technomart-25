@@ -675,17 +675,27 @@ img {
   margin-bottom: 125px;
 }
 
-.slyder-button {
+.button-info {
   font-size: 14px;
   line-height: 18px;
-  padding: 10px 50px 10px 50px;
-  margin-left: 25px;
-  margin-top: 306px;
-  border: none;
   text-transform: uppercase;
   color: #ffffff;
   background-color: #ee3643;
   border-radius: 2px;
+  border: none;
+}
+
+.slyder-button {
+  padding: 10px 50px 10px 50px;
+  margin-left: 25px;
+  margin-top: 306px;
+  color: #ffffff;
+  background-color: #ee3643;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #ee3643;
+  border-radius: 2px;
+  border: none;
 }
 
 .main-slyder-container-2 {
@@ -734,63 +744,44 @@ img {
   margin-left: 20px;
 }
 
-/*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.slyder-point {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  width: 10px;
-  height: 10px;
-  bottom: 10px;
-  left: 295px;
-  border: 1px solid #ffffff;
-  border-radius: 50%;
-  background-color: #ffffff;
-  cursor: pointer;
+.popular-title-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 24px;
+  margin-bottom: 20px;
+  background-color: #f9f5f0;
 }
 
-.slyder-point-selected {
-  position: absolute;
+.popular-title {
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  text-transform: uppercase;
   margin: 0;
-  padding: 0;
-  width: 10px;
-  height: 10px;
-  bottom: 10px;
-  right: 295px;
-  border: 2px solid #ffffff;
-  border-radius: 50%;
+  padding-top: 30px;
+  padding-bottom: 29px;
+}
+
+.popular-button {
+  margin: 0;
+  padding-right: 55px;
+  padding-left: 55px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.popular-title-block a {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
   background-color: #ee3643;
-  cursor: pointer;
 }
 
 
 
-
-
-
-
- */
 .services-delivery {
   font-family: PT Sans, Arial, sans-serif;
   font-size: 13px;
@@ -851,40 +842,7 @@ img {
   background-image: url("../img/metabo.png");
 }
 
-.popular-title-block {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 30px;
-  padding-right: 24px;
-  margin-bottom: 20px;
-  background-color: #f9f5f0;
-}
 
-.popular-title {
-  font-size: 30px;
-  line-height: 30px;
-  color: #32425c;
-  text-transform: uppercase;
-  margin: 0;
-  padding-top: 30px;
-  padding-bottom: 29px;
-}
-
-.popular-button {
-  margin: 0;
-  width: 253px;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.popular-title-block a {
-  font-size: 14px;
-  line-height: 18px;
-  color: #ffffff;
-  background-color: #ee3643;
-}
 
 .main-popular-goods li:nth-child(3n) {
   margin-right: 20px;
