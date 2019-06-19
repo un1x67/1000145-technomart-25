@@ -480,11 +480,6 @@ img {
   background-color: #1d2739;
 }
 
-.main-popular-goods {
-  width: 940px;
-  margin: 0 auto;
-}
-
 .main-offer-container {
   width: 940px;
   margin: 0 auto;
@@ -680,7 +675,7 @@ img {
   margin-bottom: 125px;
 }
 
-.btn-info {
+.button-info {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -749,12 +744,6 @@ img {
   margin-left: 20px;
 }
 
-.main-popular-producers {
-  width: 940px;
-  margin: 0 auto;
-  padding-bottom: 65px;
-}
-
 .popular-title-block {
   display: flex;
   flex-direction: row;
@@ -776,7 +765,7 @@ img {
   padding-bottom: 29px;
 }
 
-.popular-btn {
+.popular-button {
   margin: 0;
   padding-right: 55px;
   padding-left: 55px;
@@ -791,27 +780,13 @@ img {
   background-color: #ee3643;
 }
 
-.main-brand-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-  margin-left: -20px;
-  list-style: none;
-}
-
-.brand-item {
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
-.brand-item {
-  list-style-type: none;
+.main-popular-goods {
+  width: 940px;
+  margin: 0 auto;
 }
 
 .brand-logo-bosch {
   background-image: url("../img/bosch.png");
-
 }
 
 .brand-logo-makita {
@@ -844,64 +819,6 @@ img {
 
 
 
-.brand-logo {
-  width: 220px;
-  height: 145px;
-  display: block;
-  background-color: #ffffff;
-  border: 1px solid #ebebeb;
-  background-repeat: no-repeat;
-  background-position: 50%;
-}
-
-.brand-logo:hover,
-.brand-logo:focus  {
-  border-color: transparent;
-  box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
-}
-
-.brand-logo:active {
-  border-color: transparent;
-  box-shadow: 0 4px 10px 0 rgba(41, 52, 73, 0.5);
-  opacity: 0.3;
-}
-
-.brand-logo-bosch {
-  padding-bottom: 2px;
-}
-
-.brand-logo-makita {
-  padding-bottom: 6px;
-}
-
-.brand-logo-dewalt {
-  padding-bottom: 6px;
-}
-
-.brand-logo-interskol {
-  padding-right: 2px;
-  padding-bottom: 15px;
-}
-
-.brand-logo-hitachi {
-  padding-top: 2px;
-  padding-left: 5px;
-}
-
-.brand-logo-lg {
-  padding-bottom: 3px;
-}
-
-.brand-logo-aeg {
-  padding-bottom: 4px;
-  padding-left: 2px;
-}
-
-.brand-logo-metabo {
-  padding-bottom: 8px;
-  padding-left: 4px;
-}
-
 .main-popular-goods li:nth-child(3n) {
   margin-right: 20px;
 }
@@ -910,18 +827,61 @@ img {
   margin-right: 0;
 }
 
+.main-popular-producers {
+  width: 940px;
+  margin: 0 auto;
+  padding-bottom: 65px;
+}
+.main-brand-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  margin-left: -20px;
 
+}
 
+.brand-item {
+  list-style-type: none;
+}
 
+.brand-item {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
 
+.brand-logo {
+  width: 218px;
+  height: 143px;
+  display: block;
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
 
+.brand-item {
+  margin-bottom: 20px;
+}
 
+.brand-logo:hover,
+.brand-logo:focus {
+  box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
 
+.brand-logo:active {
+  opacity: 0.3;
+}
 
-
-
-
-
+.brand-list-item:active {
+  box-shadow: 0 4px 10px 0 rgba(41, 52, 73, 0.5);
+}
 
 .services-delivery {
   font-family: PT Sans, Arial, sans-serif;
@@ -945,6 +905,8 @@ img {
   color: #32425c;
   background-color: #f4f8f9;
 }
+
+
 
 .company-section-container {
   width: 940px;
