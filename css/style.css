@@ -838,7 +838,6 @@ img {
   margin: 0;
   padding: 0;
   margin-left: -20px;
-
 }
 
 .brand-item {
@@ -883,137 +882,256 @@ img {
   box-shadow: 0 4px 10px 0 rgba(41, 52, 73, 0.5);
 }
 
-.services-delivery {
-  font-family: PT Sans, Arial, sans-serif;
+.services-wrapper {
+  background-color: #f4f7f9;
+}
+
+.main-services-delivery {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  margin-bottom: 80px;
+  padding-top: 65px;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-family: Cuprum, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #32425c;
+}
+
+.service-title {
+  margin-bottom: 26px;
+  text-transform: uppercase;
+}
+
+.service-title .title {
+  color: #000000;
+}
+.main-services-delivery p {
   font-size: 13px;
   line-height: 24px;
-  font-weight: 400;
-  color: #000000;
-  background-color: #f4f8f9;
+  width: 400px;
+  margin: 0;
+  margin-bottom: 69px;
 }
 
-.service {
-  font-size: 30px;
+.index-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 240px;
+  margin: 0;
+  padding: 0;
+  margin-right: 80px;
+  margin-bottom: 98px;
+  list-style: none;
+}
+
+.services-list::after {
+  content: "";
+  position: absolute;
+  top: -45px;
+  right: 0;
+  width: 10px;
+  height: 279px;
+  background-image: url("../img/shadow.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.service-item {
+  margin-bottom: 1px;
+}
+
+.service-item a {
+  display: block;
+  padding: 14px 10px 17px 22px;
+  font-family: Cuprum, Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 700;
   line-height: 30px;
-  font-weight: 400;
+  color: #ffffff;
+  background-color: #32425c;
+  box-shadow: inset 0 1px 0 0 #3f4f69, 0 1px 0 0 #293449;
 }
 
-.delivery {
+.service-active a {
+  color: #32425c;
+  background-color: #ffffff;
+  box-shadow: inset 0 1px 0 0 #ffffff, 0 1px 0 0 #ffffff;
+}
+
+.service-item:not(.service-active) a:hover,
+.service-item:not(.service-active) a:focus {
+  color: #ffffff;
+  background-color: #293449;
+}
+
+.service-info {
+  display: none;
+  width: 620px;
+}
+
+.service-info-delivery {
+  background-image: url("../img/delivery.png");
+  background-repeat: no-repeat;
+  background-position: 151px 23px;
+}
+
+.service-info-guarantee {
+  background-image: url("../img/guarantee.png");
+  background-repeat: no-repeat;
+  background-position: 239px 1px;
+}
+
+.service-info-credit {
+  background-image: url("../img/credit.png");
+  background-repeat: no-repeat;
+  background-position: 165px 0px;
+}
+
+.service-info-show {
+  display: block;
+}
+
+.service-info .title {
+  margin-top: -2px;
   font-size: 36px;
   line-height: 36px;
-  font-weight: 400;
   color: #32425c;
-  background-color: #f4f8f9;
 }
 
+.service-info p {
+  width: 380px;
+  margin-bottom: 25px;
+}
 
+.btn {
+  display: inline-block;
+  min-width: 50px;
+  padding: 11px 20px 9px 20px;
+  font-family: Cuprum, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #ffffff;
+  background-color: #ee3643;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #ca2c37;
+}
+
+.btn:active {
+  background-color: #ba2732;
+}
+
+.btn-create-application {
+  width: 195px;
+  margin-bottom: 25px;
+}
 
 .company-section-container {
   width: 940px;
   margin: 0 auto;
-  padding: 0;
-  padding-top: 80px;
-  padding-bottom: 87px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+  padding: 0 10px;
 }
 
 .technomart-info {
   width: 540px;
+}
+
+.technomart-info .title {
+  color: #000000;
+}
+
+.technomart-info p {
+  width: 519px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.technomart-info .about-transport-companies {
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.transport-companies-list {
   margin: 0;
   padding: 0;
+  margin-bottom: 50px;
+  font-size: 18px;
+  line-height: 20px;
+  list-style: none;
+}
+
+.transport-company-item {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 36px;
+}
+
+.transport-company-item::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 23px;
+  background-color: #ee3643;
+  border: 1px solid #ee3643;
+}
+
+.btn-details-company {
+  width: 220px;
+
 }
 
 .main-contacts {
   width: 300px;
-  margin: 0;
-  padding: 0;
 }
 
-.contacts-title {
-  font-size: 30px;
-  line-height: 30px;
-  text-transform: uppercase;
-  margin: 0;
-  margin-bottom: 25px;
-  padding: 0;
+.main-contacts .title {
+  color: #000000;
 }
 
 .main-contacts p {
-  margin-bottom: 24px;
-}
-
-.main-contacts p:last-of-type {
-  margin-bottom: 18px;
-}
-
-.transport-companies-list {
-  font-size: 18px;
-  line-height: 20px;
-  list-style: none;
+  width: 179px;
   margin: 0;
-  margin-bottom: 33px;
-  padding: 0;
-}
-
-.transport-companies-list li {
-  list-style-type: none;
-}
-
-.transport-companies-list li:before {
-  content: "—";
-  color: #ee3643;
-  font-size: 26px;
-}
-
-.main-contacts p {
   margin-bottom: 30px;
 }
 
-.map-contacts {
-  margin-bottom: 28px;
+.contacts-map {
+  display: block;
+  width: 300px;
+  height: 158px;
+  margin-bottom: 40px;
 }
 
-.technomart-info {
-  font-family: PT Sans, Arial, sans-serif;
-  font-size: 13px;
-  line-height: 24px;
-  color: #000000;
-  background-color: #ffffff;
-}
-
-.about-us h2,
-.contacts h2 {
-  font-size: 30px;
-  line-height: 30px;
-  font-weight: 400;
-}
-
-.transport-companies-list {
-  font-size: 18px;
-  line-height: 20px;
-}
-
-.transport-companies-list {
-  list-style: none;
-}
-
-.company-info-link {
-  font-size: 14px;
-  color: #ffffff;
-  background-color: #ee3643;
-  border: none;
-}
-
-.company-info-link:hover {
-  color: #ffffff;
-  background-color: #ca2c37;
+.btn-create-message {
+  width: 100%;
+  padding-left: 27px;
 }
 
 .main-footer {
   background-color: #32425c;
+  margin-top: 86px;
 }
 
 .footer-container-1 {
