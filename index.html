@@ -99,7 +99,7 @@
           <div class="main-slyder-container-1 slide-active">
             <h3 class="slyder-title">Дрели</h3>
             <p class="slyder-text">Соседям на радость!</p>
-            <a class="slyder-button" href="catalog.html">Открыть каталог</a>
+            <a class="slyder-button btn-active" href="catalog.html">Открыть каталог</a>
           </div>
           <div class="main-slyder-container-2">
             <h3 class="slyder-title">Перфораторы</h3>
@@ -133,7 +133,7 @@
     <section class="main-popular-goods">
       <div class="popular-title-block">
         <h2 class="popular-title">Популярные товары:</h2>
-        <a class="button-info popular-button" href="">Все популярные товары</a>
+        <a class="button-info popular-button btn-active" href="">Все популярные товары</a>
       </div>
       <ul class="catalog-list">
         <li class="catalog-item" tabindex="0">
@@ -206,7 +206,7 @@
     <section class="main-popular-producers">
       <div class="popular-title-block">
         <h2 class="popular-title">Популярные производители:</h2>
-        <a class="button-info popular-button" href="">Все производители</a>
+        <a class="button-info popular-button btn-active" href="">Все производители</a>
       </div>
       <ul class="main-brand-list">
         <li class="brand-item"><a class="brand-logo brand-logo-bosch" href="#"></a></li>
@@ -287,62 +287,73 @@
           <a href="tel:+78125550555">+7 (812) 555-05-55</a>
         </p>
       </div>
-        <div class="footer-navigations">
-          <ul class="footer-list">
-            <li><a href="#">Компания</a></li>
-            <li><a href="#">Новости</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-            <li><a href="#">Доставка</a></li>
-            <li><a href="#">Контакты</a></li>
-          </ul>
-          <ul class="footer-items">
-            <li><a href="#">Материалы</a></li>
-            <li><a href="#">Техника</a></li>
-            <li><a href="#">Инструмент</a></li>
-            <li><a href="#">Спецпредложения</a></li>
-          </ul>
-        </div>
+      <div class="footer-navigations">
+        <ul class="footer-list">
+          <li><a href="#">Компания</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+        <ul class="footer-items">
+          <li><a href="#">Материалы</a></li>
+          <li><a href="#">Техника</a></li>
+          <li><a href="#">Инструмент</a></li>
+          <li><a href="#">Спецпредложения</a></li>
+        </ul>
       </div>
+    </div>
     <div class="footer-container-2">
       <div class="footer-copyright footer-copyright-text">
         <p class="copyright">&#169; 2010–2019 Компания &#171;Техномарт&#187; Все права защищены</p>
-          <ul class="footer-social-list">
-            <li class="social-item vk-button"><a href="#"><span class="visually-hidden">Вконтакте</span></a></li>
-            <li class="social-item facebook-button"><a href="#"><span class="visually-hidden">Фейсбук</span></a></li>
-            <li class="social-item instagram-button"><a href="#"><span class="visually-hidden">Инстаграм</span></a></li>
-          </ul>
-          <p class="footer-feedback">Обратная связь:
-            <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-          </p>
-          <p class="footer-developed">Разработано:
-            <a href="https://htmlacademy.ru">HTML Academy</a>
-          </p>
-        </div>
+        <ul class="footer-social-list">
+          <li class="social-item vk-button"><a href="#"><span class="visually-hidden">Вконтакте</span></a></li>
+          <li class="social-item facebook-button"><a href="#"><span class="visually-hidden">Фейсбук</span></a></li>
+          <li class="social-item instagram-button"><a href="#"><span class="visually-hidden">Инстаграм</span></a></li>
+        </ul>
+        <p class="footer-feedback">Обратная связь:
+          <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+        </p>
+        <p class="footer-developed">Разработано:
+          <a href="https://htmlacademy.ru">HTML Academy</a>
+        </p>
+      </div>
     </div>
   </footer>
-  <section class="write-us">
+  <div class="overlay"></div>
+  <section class="modal modal-map">
+    <h2 class="title visually-hidden">Где находится наш офис</h2>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5988837033426!2d30.320894615677183!3d59.938796869048424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1560523051639!5m2!1sru!2sru"
+        width="940" height="446" style="border:0" allowfullscreen></iframe>
+    <img src="img/map.png" alt="Адрес на карте: улица Большая Конюшенная, дом 19, на пересечении с Волынским переулком" width="940" height="446">
+    <button class="btn-close" type="button"><span class="visually-hidden">Закрыть</span></button>
+  </section>
+  <section class="modal write-us">
     <h2 class="visually-hidden">Форма обратной связи</h2>
     <form class="write-us-container">
-      <p class="write-user">
-        <label for="user-field-id">Ваше имя:</label>
-        <input type="text" name="username" id="user-field-id" placeholder="Имя Фамилия">
-      </p>
-      <p class="write-email">
-        <label for="email-field-id">Ваш e-mail:</label>
-        <input type="email" name="email" id="email-field-id" placeholder="email@example.com">
-      </p>
-      <p class="write-writing">
-        <label for="writing-field">Текст письма:</label>
-        <textarea name="writing" id="writing-field" rows="10" cols="46" placeholder="В свободной форме"></textarea>
-      </p>
-      <button class="company-info-link" type="submit">Отправить</button>
+      <div class="write-us-content modal-container">
+        <p class="write-user">
+          <label for="user-field-id">Ваше имя:</label>
+          <input type="text" name="username" id="user-field-id" placeholder="Имя Фамилия">
+        </p>
+        <p class="write-email">
+          <label for="email-field-id">Ваш e-mail:</label>
+          <input type="email" name="email" id="email-field-id" placeholder="email@example.com">
+        </p>
+        <p class="write-writing">
+          <label for="writing-field">Текст письма:</label>
+          <textarea name="writing" id="writing-field" rows="10" cols="46" placeholder="В свободной форме"></textarea>
+        </p>
+      </div>
+      <div class="modal-footer-wrapper">
+        <div class="modal-container">
+          <button class="btn btn-send-write-us" type="submit">Отправить</button>
+        </div>
+      </div>
     </form>
-    <button class="write-us-close" type="button">&#10060;</button>
-  </section>
-  <section class="popup-forms">
-    <h2 class="visually-hidden">Как до нас добраться</h2>
-    <img src="img/map.png" width="940" height="446" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
-    <button class="close-popup" type="button">&#10060;</button>
+    <button class="btn-close" type="button"><span class="visually-hidden">&#10060;</span></button>
+    </form>
   </section>
 </body>
 
