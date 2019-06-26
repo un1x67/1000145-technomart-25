@@ -159,8 +159,8 @@
         </fieldset>
         <section class="sorting">
           <h3 class="sorting-header">Сортировка:</h3>
-          <fieldset class="sort-parameters">
-            <ul class="sort-parameters-wrap">
+          <fieldset class="sort-parameter">
+            <ul class="sort-parameter-wrap">
               <li>
                 <input class="sort-parameter-radio visually-hidden-input" type="radio" id="sort-parameter-price" name="sort-params" value="price" checked>
                 <label for="sort-parameter-price">По цене</label>
@@ -176,19 +176,19 @@
             </ul>
           </fieldset>
           <fieldset class="sort-directions">
-            <div class="sort-directions-wrap">
-              <p>
-                <input class="sort-direction-radio visually-hidden-input" type="radio" id="sort-direction-ascending" name="sort-direction" value="ascending" checked>
-                <label class="sort-direction-ascending" for="sort-direction-ascending"><span class="visually-hidden-input">По возрастанию</span></label>
-              </p>
-              <p>
+            <ul class="sort-directions-wrap">
+              <li>
+                <input class="sort-direction-radio visually-hidden-input" type="radio" id="sort-direction-increasing" name="sort-direction" value="increasing" checked>
+                <label class="sort-direction-increasing" for="sort-direction-increasing"><span class="visually-hidden-input">По возрастанию</span></label>
+              </li>
+              <li>
                 <input class="sort-direction-radio visually-hidden-input" type="radio" id="sort-direction-descending" name="sort-direction" value="descending">
                 <label class="sort-direction-descending" for="sort-direction-descending"><span class="visually-hidden-input">По убыванию</span></label>
-              </p>
-            </div>
+              </li>
+            </ul>
           </fieldset>
         </section>
-        <button class="show" type="button">ПОКАЗАТЬ</button>
+        <button class="btn show" type="button">ПОКАЗАТЬ</button>
       </form>
     </div>
     <h2 class="visually-hidden">Список инструмента</h2>
