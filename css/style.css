@@ -34,7 +34,7 @@ img {
 
 .header-container-1 {
   width: 100%;
-height: 42px;
+  height: 42px;
   font-size: 17px;
   color: #ffffff;
   background-color: #293449;
@@ -313,7 +313,6 @@ height: 42px;
   width: 196px;
   margin: 183px;
   margin: 0;
-
 }
 
 .header-phone {
@@ -1168,17 +1167,16 @@ height: 42px;
   background-color: #32425c;
 }
 
-
 .footer-container-1 {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 41px;
 }
 
 .footer-information {
   width: 940px;
   margin: 0 auto;
   padding: 0 10px;
+  margin-bottom: 41px;
 }
 
 .main-logo {
