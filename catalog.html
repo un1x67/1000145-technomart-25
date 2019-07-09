@@ -140,7 +140,7 @@
           </fieldset>
           <fieldset class="filter-power-supply">
             <legend class="filter-group-name">Питание:</legend>
-            <ul>
+            <ul class="checkbox-list">
               <li>
                 <input class="power-supply-radio visually-hidden-input" type="radio" name="question-one" value="Аккумуляторные" id="accumulator-field" checked>
                 <label for="accumulator-field">Аккумуляторные</label>
@@ -152,34 +152,34 @@
             </ul>
           </fieldset>
           <section class="sorting">
-            <h3 class="title-sorting">Сортировка:</h3>
-            <fieldset class="sort-parameter">
-              <ul class="sort-parameter-wrap">
-                <li>
-                  <input class="sort-parameter-radio visually-hidden-input" type="radio" id="sort-parameter-price" name="sort-parameter" value="price" checked>
-                  <label for="sort-parameter-price">По цене</label>
-                </li>
-                <li>
-                  <input class="sort-parameter-radio visually-hidden-input" type="radio" id="sort-parameter-type" name="sort-parameter" value="type">
-                  <label for="sort-parameter-type">По типу</label>
-                </li>
-                <li>
-                  <input class="sort-parameter-radio visually-hidden-input" type="radio" id="sort-parameter-functional" name="sort-parameter" value="functional">
-                  <label for="sort-parameter-functional">По функционалу</label>
-                </li>
-              </ul>
+            <h3 class="sorting-header">Сортировка:</h3>
+            <fieldset class="sort-parameters">
+              <div class="sort-parameters-wrap">
+                <p>
+                  <input class="sort-param-radio visually-hidden-input" type="radio" id="sort-param-price" name="sort-params" value="price" checked>
+                  <label for="sort-param-price">По цене</label>
+                </p>
+                <p>
+                  <input class="sort-param-radio visually-hidden-input" type="radio" id="sort-param-type" name="sort-params" value="type">
+                  <label for="sort-param-type">По типу</label>
+                </p>
+                <p>
+                  <input class="sort-param-radio visually-hidden-input" type="radio" id="sort-param-functional" name="sort-params" value="functional">
+                  <label for="sort-param-functional">По функционалу</label>
+                </p>
+              </div>
             </fieldset>
             <fieldset class="sort-directions">
-              <ul class="sort-directions-wrap">
-                <li>
-                  <input class="sort-direction-radio visually-hidden-input" type="radio" id="sort-direction-increasing" name="sort-direction" value="increasing" checked>
-                  <label class="sort-direction-increasing" for="sort-direction-increasing"><span class="visually-hidden-input">По возрастанию</span></label>
-                </li>
-                <li>
+              <div class="sort-directions-wrap">
+                <p>
+                  <input class="sort-direction-radio visually-hidden-input" type="radio" id="sort-direction-ascending" name="sort-direction" value="ascending" checked>
+                  <label class="sort-direction-ascending" for="sort-direction-ascending"><span class="visually-hidden-input">По возрастанию</span></label>
+                </p>
+                <p>
                   <input class="sort-direction-radio visually-hidden-input" type="radio" id="sort-direction-descending" name="sort-direction" value="descending">
                   <label class="sort-direction-descending" for="sort-direction-descending"><span class="visually-hidden-input">По убыванию</span></label>
-                </li>
-              </ul>
+                </p>
+              </div>
             </fieldset>
           </section>
           <button class="btn btn-send-filter" type="submit">ПОКАЗАТЬ</button>
@@ -405,7 +405,7 @@
     </div>
     <button class="btn-close" type="button"><span class="visually-hidden">Закрыть окно</span></button>
   </section>
-  <script src="js/script.js"></script>
+
 </body>
 
 </html>

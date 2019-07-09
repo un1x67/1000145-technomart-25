@@ -401,14 +401,16 @@ img {
 }
 
 .online-store-title {
-  width: 200px;
+  width: 196px;
   margin-right: 20px;
   padding-top: 3px;
   padding-left: 53px;
+  font-family: inherit;
   font-size: 16px;
   font-style: italic;
   font-weight: 400;
   line-height: 23px;
+  letter-spacing: normal;
   color: #ee3643;
 }
 
@@ -1396,6 +1398,9 @@ img {
 }
 
 .contacts p {
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
   width: 179px;
   margin: 0;
   margin-bottom: 30px;
@@ -1889,6 +1894,7 @@ img {
   margin: 0;
   padding: 0;
   margin-bottom: 20px;
+  font-family: PT Sans, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
@@ -1979,6 +1985,7 @@ img {
 
 .filter-group-name {
   margin-bottom: 14px;
+  font-family: PT Sans, Arial, sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 30px;
@@ -2058,6 +2065,7 @@ img {
   width: 95px;
   height: 38px;
   padding-left: 16px;
+  font-family: PT Sans, Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
   text-align: center;
@@ -2098,10 +2106,15 @@ img {
   margin-bottom: 18px;
 }
 
+.checkbox-list {
+  padding-left: 0;
+}
+
 .filter-manufacturers label,
 .filter-power-supply label {
   position: relative;
   padding-left: 35px;
+  font-family: PT Sans, Arial, sans-serif;
   font-size: 15px;
   line-height: 20px;
   text-transform: uppercase;
@@ -2202,30 +2215,32 @@ img {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 700px;
-  height: 38px;
-  padding-right: 17px;
+  padding-right: 16px;
   padding-left: 19px;
   background-color: #f7f3ec;
   border-radius: 3px;
 }
 
-.title-sorting {
+.sorting-header {
   margin: 0;
-  padding: 14px 0;
-  font-weight: 400;
+  padding: 10px 0;
   margin-right: auto;
+  font-family: PT Sans, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
   text-transform: uppercase;
   color: #000000;
 }
 
-.sort-parameter,
+.sort-parameters,
 .sort-directions {
   margin: 0;
   padding: 0;
   border: none;
 }
 
-.sort-parameter-wrap,
+.sort-parameters-wrap,
 .sort-directions-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2237,20 +2252,21 @@ img {
   flex-wrap: wrap;
 }
 
-.sort-parameter-wrap {
+.sort-parameters-wrap {
   -ms-flex-pack: distribute;
   justify-content: space-around;
   min-width: 424px;
+  font-family: PT Sans, Arial, sans-serif;
 }
 
-.sort-parameter li,
-.sort-directions li {
+.sort-parameters p,
+.sort-directions p {
   margin: 0;
   margin-left: 20px;
-  list-style: none;
+  padding: 10px 0;
 }
 
-.sort-parameter label,
+.sort-parameters label,
 .sort-directions label {
   font-size: 13px;
   font-weight: 400;
@@ -2260,7 +2276,7 @@ img {
   cursor: pointer;
 }
 
-.sort-parameter label {
+.sort-parameters label {
   border-bottom: 1px dotted #ee3643;
 }
 
@@ -2269,7 +2285,7 @@ img {
   padding-left: 12px;
 }
 
-.sort-direction-increasing::before {
+.sort-direction-ascending::before {
   content: "";
   position: absolute;
   top: 4px;
@@ -2293,12 +2309,12 @@ img {
   border-top: 10px solid #c5c5c5;
 }
 
-.sort-parameter-radio:hover+label,
+.sort-param-radio:hover+label,
 .sort-direction-radio:hover+label {
   color: #000000;
 }
 
-.sort-parameter-radio:hover+label {
+.sort-param-radio:hover+label {
   border-bottom: 1px solid #ee3643;
 }
 
@@ -2310,13 +2326,13 @@ img {
   border-top-color: #000000;
 }
 
-.sort-parameter-radio:checked+label,
+.sort-param-radio:checked+label,
 .sort-direction-radio:checked+label {
   color: #ee3643;
   border: none;
 }
 
-.sort-direction-radio:checked+.sort-direction-increasing::before {
+.sort-direction-radio:checked+.sort-direction-ascending::before {
   border-bottom-color: #ee3643;
 }
 
@@ -2333,7 +2349,7 @@ img {
 .btn-send-filter {
   width: 140px;
   padding-top: 9px;
-  font-family: PT Sans, Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
